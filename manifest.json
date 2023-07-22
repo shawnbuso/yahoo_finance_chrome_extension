@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Yahoo Finance Favicon Colorizer",
   "description": "Change color of Yahoo Finance favicon based on day gain/loss.",
-  "version": "1.0",
+  "version": "0.0.1",
   "content_scripts": [
     {
       "js": ["scripts/main.js"],
