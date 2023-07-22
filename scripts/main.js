@@ -3,6 +3,9 @@ let green = 'https://i.imgur.com/yfxHLoG.png';
 
 let mainLoop = () => {
   let dayGainEl = Array.from(document.querySelectorAll('div')).find(el => el.textContent === 'Day Gain');
+  if (!dayGainEl) {
+    return;
+  }
   let dayGain = dayGainEl.parentElement.childNodes[1].innerHTML.includes('positiveColor');
   let oldIcons = document.querySelectorAll('link[rel*="icon"]');
   let newIcon = document.createElement('link');
