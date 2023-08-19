@@ -21,5 +21,4 @@ let mainLoop = () => {
   document.head.appendChild(newIcon);
 };
 
-setTimeout(mainLoop, 3000);
-setInterval(mainLoop, 30000);
+setInterval(mainLoop, 3000);
